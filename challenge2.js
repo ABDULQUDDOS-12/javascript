@@ -1,0 +1,6 @@
+// console.log(NaN===NaN)
+// console.log(Number.NaN===Number.NaN)
+// console.log(typeof(NaN))
+// console.log(undefined===undefined)
+console.log(Number.isNaN(NaN))
+console.log(isNaN(Number.NaN))
