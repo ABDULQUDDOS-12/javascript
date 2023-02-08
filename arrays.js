@@ -115,3 +115,21 @@
 // const humans = ['Abdul Quddos','Mustufa','Syed Abdullah']
 // humans.shift()
 // console.log(humans)
+
+
+//map()
+const array1 = [43,12,15,76,45]
+//num>12  map and filter are same
+//map returns boolean value if the current data is greater or less then the provided value
+//it returns new array without mutating the orignal one
+//we can use multiple methods like reduce(),filter() with map() function
+// let newArr = array1.map((elem,index,arr)=>{ 
+//     return `index no = ${index} and the value is = ${elem} belong to ${arr}`
+// })
+// console.log(newArr)
+
+//for each returns undefined
+let newArr = array1.forEach((elem,index,arr)=>{ 
+    return `index no = ${index} and the value is = ${elem} belong to ${arr}`
+})
+console.log(newArr)
