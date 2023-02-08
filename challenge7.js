@@ -20,3 +20,5 @@
 // months.splice(2,1,)
 // console.log(months)
 //months.splic(months.length,1,"Dec")
+
+
