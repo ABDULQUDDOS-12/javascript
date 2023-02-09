@@ -118,7 +118,7 @@
 
 
 //map()
-const array1 = [43,12,15,76,45]
+// const array1 = [43,12,15,76,45]
 //num>12  map and filter are same
 //map returns boolean value if the current data is greater or less then the provided value
 //it returns new array without mutating the orignal one
@@ -129,7 +129,31 @@ const array1 = [43,12,15,76,45]
 // console.log(newArr)
 
 //for each returns undefined
-let newArr = array1.forEach((elem,index,arr)=>{ 
-    return `index no = ${index} and the value is = ${elem} belong to ${arr}`
-})
-console.log(newArr)
+// let newArr = array1.forEach((elem,index,arr)=>{ 
+//     return `index no = ${index} and the value is = ${elem} belong to ${arr}`
+// })
+// console.log(newArr)
+
+
+
+//reduce()
+//the reducer function takes 4 arguments 
+//accumulator value, current index, source array
+//total sum,total value,average 
+//it converts 2d,3d array into 1d array
+// let arr = [5,6,2,9]
+// let sum = arr.reduce((accumulator,element,index,array)=>{
+//   return accumulator += element
+// },7)
+// console.log(sum)
+
+
+
+//how to flatten array of 2D,3D into 1D
+// const arr = [['zone 1','zone 2'],
+// ['zone 3','zone 4'],
+// ['zone 5','zone 6']];
+// let flatArray = arr.reduce((accumulator,currentValue)=>{
+//    return accumulator.concat(currentValue)
+// })
+// console.log(flatArray)
