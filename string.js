@@ -81,3 +81,26 @@
 //It returns the unicode character of the string
 // let str = 'Hello world'
 // console.log(str.charCodeAt(0))
+
+//toUpperCase() , toLowerCase()
+// let myName = "Abdul Quddos"
+// console.log(myName.toLowerCase())
+// console.log(myName.toUpperCase())
+
+//concat() method add two strings
+// let fName = "Abdul"
+// let lName = " Quddos"
+// let fullName = fName.concat(lName)
+// console.log(fullName)
+
+
+//trim()
+//the trim() method removes white spaces from the first and last part ofthe string
+// var str = "   Hello world!   "
+// console.log(str.trim())
+
+
+//how to convert a string into an array
+// var fruits = "apple,mango,banana,orange"
+// console.log(fruits.split(","))
+
