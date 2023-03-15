@@ -1,0 +1,1 @@
+//higher order function defined combined with call back function
